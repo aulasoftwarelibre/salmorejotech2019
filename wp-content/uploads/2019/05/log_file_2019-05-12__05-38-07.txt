@@ -1,0 +1,9 @@
+
+---Upload files---
+Content file was not uploaded. Error: 
+
+---Upload files---
+Customizer file was not uploaded. Error: El archivo indicado no cumple los requisitos de subida.
+
+---Upload files---
+Missing Redux option name! Please also enter the Redux option name!
