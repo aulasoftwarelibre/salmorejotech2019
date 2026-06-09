@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v16.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Francisco Zurita | SalmorejoTech</title>
+	<link rel="canonical" href="/2019/speakers/francisco-zurita">
+	<meta property="og:locale" content="es_ES">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Francisco Zurita | SalmorejoTech">
+	<meta property="og:description" content="TDD in the javascript stack. A survival guide Hablaremos sobre cómo implementar testing usando jest + cypress tanto en frontend como en...">
+	<meta property="og:url" content="https://salmorejo.tech/2019/speakers/francisco-zurita/">
+	<meta property="og:site_name" content="SalmorejoTech">
+	<meta property="article:modified_time" content="2019-07-04T10:38:31+00:00">
+	<meta property="og:image" content="https://salmorejo.tech/2019/wp-content/uploads/2019/05/franciscozurita-e1557730430546.jpeg">
+	<meta property="og:image:width" content="600">
+	<meta property="og:image:height" content="600">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@salmorejotech">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://salmorejo.tech/2019/#organization","name":"SalmorejoTech","url":"https://salmorejo.tech/2019/","sameAs":["https://twitter.com/salmorejotech"],"logo":{"@type":"ImageObject","@id":"https://salmorejo.tech/2019/#logo","inLanguage":"es","url":"https://salmorejo.tech/2019/wp-content/uploads/2019/05/isologo-twitter-banner.png","contentUrl":"https://salmorejo.tech/2019/wp-content/uploads/2019/05/isologo-twitter-banner.png","width":1500,"height":500,"caption":"SalmorejoTech"},"image":{"@id":"https://salmorejo.tech/2019/#logo"}},{"@type":"WebSite","@id":"https://salmorejo.tech/2019/#website","url":"https://salmorejo.tech/2019/","name":"SalmorejoTech","description":"Tu evento tecnológico con sabor cordobés","publisher":{"@id":"https://salmorejo.tech/2019/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://salmorejo.tech/2019/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"ImageObject","@id":"https://salmorejo.tech/2019/speakers/francisco-zurita/#primaryimage","inLanguage":"es","url":"https://salmorejo.tech/2019/wp-content/uploads/2019/05/franciscozurita-e1557730430546.jpeg","contentUrl":"https://salmorejo.tech/2019/wp-content/uploads/2019/05/franciscozurita-e1557730430546.jpeg","width":600,"height":600},{"@type":"WebPage","@id":"https://salmorejo.tech/2019/speakers/francisco-zurita/#webpage","url":"https://salmorejo.tech/2019/speakers/francisco-zurita/","name":"Francisco Zurita | SalmorejoTech","isPartOf":{"@id":"https://salmorejo.tech/2019/#website"},"primaryImageOfPage":{"@id":"https://salmorejo.tech/2019/speakers/francisco-zurita/#primaryimage"},"datePublished":"2019-05-12T19:13:00+00:00","dateModified":"2019-07-04T10:38:31+00:00","breadcrumb":{"@id":"https://salmorejo.tech/2019/speakers/francisco-zurita/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://salmorejo.tech/2019/speakers/francisco-zurita/"]}]},{"@type":"BreadcrumbList","@id":"https://salmorejo.tech/2019/speakers/francisco-zurita/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://salmorejo.tech/2019/","url":"https://salmorejo.tech/2019/","name":"Portada"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://salmorejo.tech/2019/speakers/","url":"https://salmorejo.tech/2019/speakers/","name":"Speakers"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://salmorejo.tech/2019/speakers/francisco-zurita/","url":"https://salmorejo.tech/2019/speakers/francisco-zurita/","name":"Francisco Zurita"}}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//www.google.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="alternate" type="application/rss+xml" title="SalmorejoTech &raquo; Feed" href="/2019/feed">
+<link rel="alternate" type="application/rss+xml" title="SalmorejoTech &raquo; Feed de los comentarios" href="/2019/comments/feed">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v7.17.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-51754922-3" type="text/javascript" data-cfasync="false"></script>
+			<script type="text/javascript" data-cfasync="false">
+				var mi_version = '7.17.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStr = 'ga-disable-UA-51754922-3';
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					return document.cookie.indexOf( disableStr + '=true' ) > - 1;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					window[disableStr] = true;
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					window[disableStr] = true;
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+				if ( mi_track_user ) {
+					function __gtagTracker() {dataLayer.push( arguments );}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+						                    });
+					__gtagTracker( 'config', 'UA-51754922-3', {
+						forceSSL:true,link_attribution:true,					} );
+										window.gtag = __gtagTracker;										(
+						function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						}
+					)();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/salmorejo.tech\/2019\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="/2019/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="cl-style-css" href="/2019/wp-content/plugins/cl_pricetable/css/cl_price_table.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="cl-style1-css" href="/2019/wp-content/plugins/cl_pricetable/css/hover-min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="cl-style2-css" href="/2019/wp-content/plugins/cl_pricetable/css/font-awesome.min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="cl-style-clt-css" href="/2019/wp-content/plugins/cl_testimonial/css/style.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="cl-style1-clt-css" href="/2019/wp-content/plugins/cl_testimonial/css/hover-min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="cl-style2-clt-css" href="/2019/wp-content/plugins/cl_testimonial/css/font-awesome.min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="cl-style3-clt-css" href="/2019/wp-content/plugins/cl_testimonial/css/slick.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="cl-style4-clt-css" href="/2019/wp-content/plugins/cl_testimonial/css/slick-theme.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="/2019/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4" type="text/css" media="all">
+<link rel="stylesheet" id="mptt-style-css" href="/2019/wp-content/plugins/mp-timetable/media/css/style.css?ver=2.3.18" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="/2019/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8.2" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id {}</style>
+<link rel="stylesheet" id="boostrap-css" href="/2019/wp-content/themes/eventeo/assets/css/bootstrap.min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="/2019/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.7" type="text/css" media="all">
+<link rel="stylesheet" id="ico-font-css" href="/2019/wp-content/themes/eventeo/assets/css/icofont.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="flaticon-css" href="/2019/wp-content/themes/eventeo/assets/css/flaticon.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="lineicon-css" href="/2019/wp-content/themes/eventeo/assets/css/lineicons.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="owl-carousel-css" href="/2019/wp-content/themes/eventeo/assets/css/owl.carousel.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="slick-css" href="/2019/wp-content/themes/eventeo/assets/css/slick.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="type-writter-css" href="/2019/wp-content/themes/eventeo/assets/css/type-writter.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="/2019/wp-content/themes/eventeo/assets/css/magnific-popup.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css-css" href="/2019/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.7" type="text/css" media="all">
+<link rel="stylesheet" id="eventeo-style-default-css" href="/2019/wp-content/themes/eventeo/assets/css/default.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="eventeo-style-responsive-css" href="/2019/wp-content/themes/eventeo/assets/css/responsive.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="eventeo-style-css" href="/2019/wp-content/themes/eventeo-child/style.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="studio-fonts-css" href="//fonts.googleapis.com/css?family=Rubik%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%26amp%3Bsubset%3Dlatin-ext&#038;ver=1.0.0" type="text/css" media="all">
+<link rel="stylesheet" id="js_composer_custom_css-css" href="/2019/wp-content/uploads/js_composer/custom.css?ver=5.7" type="text/css" media="all">
+<link rel="stylesheet" id="childstyle-css" href="/2019/wp-content/themes/eventeo/style.css?ver=5.7.1" type="text/css" media="all">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900,300italic,400italic,500italic,700italic,900italic&#038;display=swap&#038;ver=1581351564">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900,300italic,400italic,500italic,700italic,900italic&#038;display=swap&#038;ver=1581351564" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900,300italic,400italic,500italic,700italic,900italic&#038;display=swap&#038;ver=1581351564"></noscript>
+<script type="text/javascript" id="monsterinsights-frontend-script-js-extra">
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/salmorejo.tech\/2019","hash_tracking":"false","ua":"UA-51754922-3"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/2019/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=7.17.0" id="monsterinsights-frontend-script-js"></script>
+<script type="text/javascript" src="/2019/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/2019/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="/2019/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8.2" id="tp-tools-js"></script>
+<script type="text/javascript" src="/2019/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8.2" id="revmin-js"></script>
+<link rel="https://api.w.org/" href="/2019/wp-json">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/2019/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/2019/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.7.1">
+<link rel="shortlink" href="/2019/.?p=3861">
+<link rel="alternate" type="application/json+oembed" href="/2019/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsalmorejo.tech%2F2019%2Fspeakers%2Ffrancisco-zurita%2F">
+<link rel="alternate" type="text/xml+oembed" href="/2019/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsalmorejo.tech%2F2019%2Fspeakers%2Ffrancisco-zurita%2F&#038;format=xml">
+<meta name="framework" content="Redux 4.1.26">
+<noscript><style type="text/css">.mptt-shortcode-wrapper .mptt-shortcode-table:first-of-type{display:table!important}.mptt-shortcode-wrapper .mptt-shortcode-table .mptt-event-container:hover{height:auto!important;min-height:100%!important}body.mprm_ie_browser .mptt-shortcode-wrapper .mptt-event-container{height:auto!important}@media (max-width:767px){.mptt-shortcode-wrapper .mptt-shortcode-table:first-of-type{display:none!important}}</style></noscript>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://salmorejo.tech/2019/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.8.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<link rel="icon" href="/2019/wp-content/uploads/2019/05/cropped-isotipo-rrss-cuadrado-32x32.png" sizes="32x32">
+<link rel="icon" href="/2019/wp-content/uploads/2019/05/cropped-isotipo-rrss-cuadrado-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/2019/wp-content/uploads/2019/05/cropped-isotipo-rrss-cuadrado-180x180.png">
+<meta name="msapplication-TileImage" content="https://salmorejo.tech/2019/wp-content/uploads/2019/05/cropped-isotipo-rrss-cuadrado-270x270.png">
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+
+<!-- Typography -->
+<style>body{
+		background:#ffffff !important;
+		color:#212121 !important;
+		font-family: Rubik !important;    
+	    font-size: 15px !important;	
+	}
+	.rs-testimonial.app-testimonial:after{
+		background: rgba(253, 210, 69,.7) !important;
+	}
+	#contact-address .address,
+	.rs-blog-details #reply-title:before,
+	.rs-blog-details .comments-title:after,
+	#loading,
+	.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+	.woocommerce div.product .woocommerce-tabs ul.tabs li:hover{
+		background:#606060 !important;
+	}
+
+	.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce .wc-forward, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+		border:#606060 !important;
+	}
+
+
+
+	.footer-bottom{
+		background:transparent !important;
+	}
+
+	#rs-header .toolbar-area .toolbar-contact ul.rs-contact-info li,
+	#rs-header .toolbar-area .toolbar-contact ul.rs-contact-info li i,
+	#rs-header .toolbar-area .toolbar-contact ul li{
+		color:#ffffff;
+	}
+
+
+	#rs-header .toolbar-area .toolbar-contact ul.rs-contact-info li a,
+	#rs-header .toolbar-area .toolbar-contact ul li a,
+	#rs-header .toolbar-area .toolbar-sl-share ul li a i{
+		color:#ffffff;
+	}
+
+	#rs-header .toolbar-area .toolbar-contact ul.rs-contact-info li a:hover,
+	#rs-header .toolbar-area .toolbar-sl-share li:hover a i,
+	#rs-header .toolbar-area .toolbar-contact ul li a:hover{
+		color:#fe2260;
+	}
+
+
+	button:hover, html input[type="button"]:hover,
+	.comments-area .comment-list li.comment .reply a:hover,
+	input[type="reset"]:hover, input[type="submit"]:hover, .readon:hover, .readon:focus,
+	#quick-qoute .contact-form .form-button input:hover,
+	button, html input[type="button"], input[type="reset"], input[type="submit"],
+	#rs-header.style2 .menu-responsive .get-quote a,
+
+	{
+		background:#fcc100 !important;
+		color:#212121;
+	}
+    .rs-team.rs-team-style3 .team-img .normal-text .share-icons ul li a:hover{
+		background:#fcc100;
+	}
+
+	#ratings .vc_bar, 
+	.cl-testimonial2#cl-testimonial .slick-next:hover, 
+	.cl-testimonial2#cl-testimonial .slick-prev:hover,
+	.rs-partner .slick-arrow:hover,
+	.rs-partner .slick-prev:hover,
+	.rs-heading.style1 h2:after
+	{
+		background:#fdd245 !important;
+	}
+
+	.navbar a, .navbar li{	
+		font-family:Rubik!important;
+		font-size:15px;
+	}
+	#rs-header .menu-area .navbar ul li > a,
+	header.header-style-4 .sidebarmenu-search .sticky_search i,
+	#rs-header .menu-area .navbar ul li.menu-item-has-children > a::before{
+		color:#212121	}
+
+	#rs-header .menu-area .navbar ul > li > a:hover,	
+	#rs-header.header-style6 .menu-area .navbar ul > li > a:hover,
+	#rs-header.header-style-4 .menu-area .navbar ul > li > a:hover
+
+	{
+		color:#fdd245;
+	}
+
+	#rs-header .menu-area .navbar ul li.current_page_parent > a,
+	#rs-header .menu-area .navbar ul.menu > li.current-menu-ancestor > a,
+	#rs-header .menu-area .navbar ul li .sub-menu li.current_page_item a,	
+	#rs-header.header-style6 .menu-area#single-menu .navbar ul li.active a,
+	#rs-header.header-style6 .menu-area .navbar ul li.current_page_parent > a
+	{
+		color:#fdd245;
+	}
+
+	
+	#rs-header .menu-area .navbar ul li.children li a:hover,
+	#rs-header.header-style6 .menu-area .navbar ul li > a:hover,
+	#rs-header.header-style-4 .menu-area .navbar ul li > a:hover{
+		color:#fdd245;
+	}
+
+	.menu-area .navbar ul li .sub-menu{
+				  background:#fdd245;
+					
+		}
+
+	#rs-header .menu-area .navbar ul li .sub-menu li a:hover{
+		
+	}
+	
+
+	h1{
+		color:#303745 !important;
+		font-family:Rubik!important;
+		font-size:40px!important;
+				font-weight:700!important;
+				
+					line-height:46px!important;
+				
+	}
+	h2{
+		color:#303745; 
+		font-family:Rubik!important;
+		font-size:38px;
+				font-weight:700!important;
+				
+					line-height:40px			}
+	h3{
+		color:#303745 ;
+		font-family:Rubik!important;
+		font-size:28px;
+				
+					line-height:32px!important;
+			}
+	h4{
+		color:#303745;
+		font-family:Rubik!important;
+		font-size:20px;
+				font-weight:500!important;
+				
+					line-height:30px!important;
+				
+	}
+	h5{
+		color:#303745;
+		font-family:Rubik!important;
+		font-size:18px;
+				font-weight:500!important;
+				
+					line-height:28px!important;
+			}
+	h6{
+		color:#303745 ;
+		font-family:Rubik!important;
+		font-size:16px;
+				font-weight:500!important;
+				
+					line-height:26px!important;
+			}
+
+	.sec-title-all .title-sec-left:before,
+	#download-store:after,	
+	#testimonial-home:after,	
+	.features-section:after, .achievement:after,
+	.sec-title-all .title-sec-left:before, #download-store:after, #testimonial-home:after, #download-store2:after,
+	.rs-team .team-carousel .team-img .img-title-wrap,
+	.particles-section,
+	.skew-style2 .sppb-row-overlay:before,
+	.skew-style3 .sppb-row-overlay:before,
+	.skew-style-inverse .sppb-row-overlay:after,
+	
+	.features-section li.vc_tta-tab:hover a, .features-section li.vc_tta-tab.vc_active a,
+	#download-store2 #app-store a:hover,
+	.faq-section .vc_tta-panel-title:hover, 
+	.bs-sidebar .tagcloud a:hover,
+	.sidenav li.nav-link-container,
+	.main-contain .rs-banner .readon-border.reverse:hover,
+	#rs-about .about-resume .smoothContact:hover,
+	.sidenav .widget-title::before,
+	.bs-sidebar .widget-title:before,
+	.single-speakers .ps-image .team-pinfo,
+	.rs-services-style3 .services-item .services-icon,
+	.price-table.style1 .cl-pricetable-wrap .top::after,
+	#rs-header .menu-area .sidenav .nav-link-container .nav-menu-link,
+	.header-style1 .menu_one .navbar {
+		background: #fdd245 !important;
+	}
+	#rs-cta, .floating-icons,
+	.rs-team .team-item .team-img .normal-text{
+		background: #fdd245;
+	}
+	.banner-price .cl-pricetable-wrap .bottom .btn-table:hover,
+	.clpricing-table .price-table.style2 .cl-pricetable-wrap .top .btn-table,
+	#price-table .clpricing-table .price-table.style2 .cl-pricetable-wrap .bottom ul li.show:hover, #price-table .clpricing-table .price-table.style2 .cl-pricetable-wrap .bottom ul li.show.open{
+		background: #fdd245 !important;
+	}
+	.video-page-price .first-table .bottom .btn-table, .video-page-price .middle-table .bottom .btn-table,
+	#business-services .rs-services1 .services-item:hover,
+	.rs-testimonial .vc_progress_bar .vc_single_bar .vc_bar,
+	.rs-team .team-gird .team-style4 .inner .box-section .team-content .team-social a,	
+	.site-overview:before {
+	    background: #fdd245 !important;
+	}
+	
+	#address-top .vc_column-inner,
+	.rs-heading.dark-style h3:before,
+	.features-section .vc_active .vc_tta-panel-heading,
+	.features-section .vc_tta-panel-heading:hover,
+	.video-page-price .featured .bottom ul li:nth-child(odd)
+	{
+		background: #fdd245 !important;
+	}
+	.sidenav .offcanvas_social li a:hover i,
+	.rs-footer.footerlight .footer-top a:hover,
+	.full-padding .location-map i,
+	.main-contain .rs-blog .blog-slider .blog-item:hover .blog-title a,
+	.rs-heading.light .sub-text,
+	.blog-item .title-wrap a:hover,
+	.contact-address .address-item .address-icon i,
+	.rs-footer.footerlight .footer-bottom .copyright a,
+	.rs-footer.footerlight .widget.widget_nav_menu ul li.current-menu-item a, 
+	.rs-footer.footerlight .widget.widget_nav_menu ul li a:hover,
+	.course-features-info ul li i{
+		color: #fdd245 !important;
+	}
+
+	.faq-section .vc_tta-panel.vc_active .vc_tta-panel-title,
+	.clpricing-table .price-table.style1 .cl-pricetable-wrap .bottom .btn-table:hover,	
+	.video-page-price .cl-pricetable-wrap .bottom .btn-table:hover,
+	.rs-footer .footer_social li a:hover,
+	input[type="button"]:hover, input[type="reset"]:hover{
+		background: #fdd245 !important;
+	}
+
+
+	.clpricing-table .price-table.style2 .cl-pricetable-wrap .top .btn-table:hover,
+	.single-post .rs-blog-details .meta-info-wrap .tag-line a:hover{
+		background: #fdd245 !important;		
+	}
+
+ 	#rs-contact .address .vc_icon_element:hover,
+ 	.rs-blog .title-wrap,
+ 	.price-table.style1 .cl-pricetable-wrap,
+ 	.single-post .rs-blog-details .meta-info-wrap .tag-line a:hover{
+		border-color: #fdd245 !important;
+	}
+	.rs-footer .footer-title::after, 
+	.rs-footer .footer-top .widget_nav_menu li a::after, 
+	.rs-services .services-desc::after, 
+	.rs-footer .footer-bottom .footer-bottom-share ul li a:hover, 
+	#wp-megamenu-menu-1 > .wpmm-nav-wrap ul.wp-megamenu > li.wpmm_dropdown_menu  ul.wp-megamenu-sub-menu, 
+	#wp-megamenu-menu-1 > .wpmm-nav-wrap ul.wp-megamenu  li.wpmm-type-widget .wp-megamenu-sub-menu li .wp-megamenu-sub-menu, 
+	#wp-megamenu-menu-1 > .wpmm-nav-wrap ul.wp-megamenu > li.wpmm_mega_menu > ul.wp-megamenu-sub-menu,
+	 .sidenav .nav-close-menu-li a:hover:after, .sidenav .nav-close-menu-li a:hover:before,	
+	.cl-testimonial2#cl-testimonial .slick-next, .cl-testimonial2#cl-testimonial .slick-prev,
+    .rs-blog .blog-item .blog-img .blog-img-content .blog-link:hover,
+	.pagination-area .nav-links span.current,	
+	.rs-blog-details .author-block .author-title:after,
+	#cl-testimonial .slider5 .image:before, #cl-testimonial .slider5 .image:after,
+	#cl-testimonial .slick-active button,
+	#ratings #cl-testimonial ul.slick-dots li.slick-active button,
+	.rs-partner .slick-next,
+	.rs-partner .slick-prev,
+	#why-choose-us .rs-services1 .services-wrap .services-item .services-icon i,
+	#content .quick-contact .vc_column-inner,
+	#content .quick-contact .vc_column-inner:before,
+	body #cl-testimonial .slick-active button,
+	header.header-style-4 .header-inner .logo-section .toolbar-contact-style4 ul li .quote-button,
+	.about-skill .vc_single_bar .vc_bar,
+	#full-sections .wpb_text_column p a,
+	#home-testimonial .cl-testimonial1 .slick-arrow,
+	.testimonial-slide.slider1 .slick-current .testimonial-content:before,
+	#home-testimonial .cl-testimonial1 .testimonial-content:hover::before,
+	#content .quick-contact .vc_column-inner:after,
+	#team-section.slider-style2 .rs-team .team-item .team-img .overlay,
+	.rs-heading.quote-style h2:after,
+	.slider-style3 .team-slider-style1 .team-item .social-icons,	
+	#rs-services .rs-services1:hover .services-icon,
+	.apps-contact .share-icons .vc_icon_element:hover,
+	.app-features .rs-services .services-item:after,
+	.video-section#app-video .rs-video-2 .popup-videos,
+	.team-gird .team-style2 .team-img .normal-text .team-name,
+	#keyword-search .vc_tta-panel-heading h4.vc_tta-panel-title:before,
+	#our-practice-area .rs-services1 .services-item:hover .services-desc .services-title:after,
+	.top-history,
+	.team-gird .team-style2 .team-content .display-table .display-table-cell .team-title:after, .team-gird .team-style3 .team-wrapper .team_desc:before,
+	.rs-team .team-gird .team-style4 .inner:hover .box-section,
+	code, .rs-blog.rs-blog-grid .blog-meta .blog-title::after,
+	mark, ins, .contact-address .address-item .address-icon::before,
+	.contact-address .address-item .address-icon::after,
+	.header-style1 .sticky .menu-area, .full-blog-content .blog-title::after,
+	#sidebar-services .widget.widget_nav_menu ul li:hover, 
+	#sidebar-services .widget.widget_nav_menu ul li.current-menu-item,
+	#sidebar-services .download-btn ul li, .header-style1 .toolbar-contact-style4 ul li i,
+	.rs-porfolio-details.project-gallery .file-list-image:hover .p-zoom:hover,
+	.rs-portfolio-style4 .portfolio-item .portfolio-img::before,
+    .team-gird .team-style3 .team-wrapper:hover .team_desc,
+	.bottom-shadow1 .blog-date:before,
+	.btm-cate:before, .header-style1 .menu-area .menu-offcanvas .get-quote .quote-button,
+	#home3-banner .contact-form.contact3,
+	#alignleft-tab .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab.vc_active a,
+	#alignleft-tab .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab a:hover, .rs-portfolio-style3 .portfolio-item .portfolio-img::before, 
+	ul.footer_social li a, .header-style1 .menu-area .get-quote, #keyword-search .vc_tta-panel-heading h4.vc_tta-panel-title a,
+	.tabs-about .vc_tta-container .vc_tta-tabs-container ul li.vc_active a
+	{
+		background:#fdd245 !important;
+	}
+
+	
+	.pagination-area .nav-links a:hover,
+	.cssload-box-loading::after,
+	.pagination-area .nav-links a.prev.page-numbers,
+	#rs-header.header-style6 .menu-responsive .get-quote a,
+	.pagination-area .nav-links span.current{
+		background:#fdd245 !important;
+	}
+
+
+	
+	
+	.pagination-area .nav-links a,
+	.pagination-area .nav-links span.current{
+		border-color: #fdd245 !important;
+	}
+
+	.pagination-area .nav-links a:hover, .pagination-area .nav-links span.current:hover,
+	.rs-blog .blog-item .blog-button a:hover,
+	.pagination-area .nav-links a.next.page-numbers:hover
+
+	{
+		background:#fcc100 !important;
+		color:#212121 !important;
+		border-color: #fcc100 !important;
+	}
+
+	.owl-navigation-yes .owl-nav [class*="owl-"]:hover,
+	#home-testimonial .cl-testimonial1 .slick-arrow:hover,
+	.readon, .readon:focus, #quick-qoute .contact-form .form-button input,
+	.owl-carousel .owl-nav [class*="owl-"],
+	.owl-navigation-yes .owl-nav [class*="owl-"], #scrollUp i,
+	.comments-area .comment-list li.comment .reply a, button, html input[type="button"], input[type="reset"],
+	.rs-footer .mc4wp-form .mc4wp-form-fields .form-button,
+	#portfolio-slider .owl-nav .owl-next, #team-section .owl-nav .owl-next, #blog-home .owl-nav .owl-next,
+	#portfolio-slider .owl-nav .owl-prev, #team-section .owl-nav .owl-prev, #blog-home .owl-nav .owl-prev,
+	.banner-price .cl-pricetable-wrap .bottom .btn-table,
+	.clpricing-table .price-table.style2 .cl-pricetable-wrap .top .btn-table, .clpricing-table .price-table.style1 .cl-pricetable-wrap .bottom .btn-table,
+	.slider-bg-btn.site-color::after, header.header-style-4 .header-inner .menu-area .menu_one .header-quote .quote-button,
+	.pagination-area .nav-links a.next.page-numbers, .pagination-area .nav-links a.prev.page-numbers,
+	.pagination-area .nav-links span.current,
+	#rs-header.style2 .menu-responsive .get-quote a
+	{
+		background:#fdd245;
+		color:#212121;
+	}
+	.comments-area .comment-list li.comment .reply a:hover{
+		background:#fcc100;
+	}
+	.rs-footer .mc4wp-form .mc4wp-form-fields i,
+	.pagination-area .nav-links a:hover,
+	.pagination-area .nav-links a.next.page-numbers:hover, .pagination-area .nav-links a.prev.page-numbers:hover{
+		color:#212121 !important;
+	}
+
+	p.buttons a:hover{
+		color:#212121 !important;
+	}
+	.readon,	
+	#rs-header.style2 .menu-responsive .get-quote a,
+	.comment-respond .form-submit #submit,
+	body.search-results .site-main > article .entry-summary .blog-button a,
+	input[type="submit"]{
+	    border-color: #fdd245 !important;
+		background: #fdd245 !important;
+	}
+	.readon:hover,
+	.comment-respond .form-submit #submit:hover,	
+	#rs-header.style2 .menu-responsive .get-quote a:hover,
+	body.search-results .site-main > article .entry-summary .blog-button a:hover,
+	input[type="submit"]:hover {
+	    border-color: #fcc100;
+	    background: #fcc100 !important;
+	    color: #212121 !important;
+	}
+
+	#portfolio-slider .owl-nav .owl-prev:hover, #team-section .owl-nav .owl-prev:hover, #blog-home .owl-nav .owl-prev:hover,
+	.rs-portfolio-style1 .portfolio-item .p-link:hover, #price-table .cl-pricetable-wrap:hover .btn-table,
+	#scrollUp i:hover, .rs-footer .mc4wp-form .mc4wp-form-fields .form-button:hover,
+	#blog-home .owl-nav .owl-next:hover, header.header-style-4 .header-inner .menu-area .menu_one .header-quote .quote-button:hover
+	{
+		background:#fcc100 !important;
+	}
+	
+	.slider-bg-btn.site-color::after
+	{
+		background:#fdd245 !important;
+		color:#212121 !important;
+	}
+
+
+	.slider-bg-btn.site-color:hover:after, #portfolio-slider .owl-nav .owl-next:hover, #team-section .owl-nav .owl-next:hover, #blog-home .owl-nav .owl-next:hover
+	{
+		background:#fcc100 !important;
+	}
+
+
+	.rs-heading h3 i, .services-style-5:hover .services-wrap .services-item .services-icon::after,
+	.services-style-5 .services-wrap .services-item .services-icon::after, .content-overlay::before,
+	.single-events .share_icon li a:hover, .rs-services-style4 .services-item .services-icon i{
+		background:#fdd245;
+	}
+
+	.header-style1 .menu-area .navbar ul li ul.sub-menu,
+	#rs-header.header-style1 .menu-area .navbar ul li .sub-menu li a,
+	.single-speakers .ps-informations ul.ps-social li.social-icon:hover{
+		background:#fdd245 !important;
+	}
+	.single-speakers .team-skill .rs-progress .progress-bar{
+		background-color:#fdd245;
+	}
+	.single-speakers .team-skill .rs-progress .progress-bar .pb-percent{
+		background:#fdd245;
+	}
+
+	.sec-title h4, .exp-title,	
+	.rs-porfolio-details.project-gallery .file-list-image .p-zoom,	
+	.team-gird .team-style2 .team-content .display-table .display-table-cell .team-title, 
+	#counter-bg .counter-top-area .rs-counter-list i
+	.rs-about .about-exp, .rs-testimonial .testi-content::before, .rs-blog .blog-item .blog-img .blog-img-content .blog-link, .rs-services .services-icon, #wp-megamenu-menu-1 > .wpmm-nav-wrap ul.wp-megamenu > li.current-menu-item > a, #wp-megamenu-menu-1 > .wpmm-nav-wrap ul.wp-megamenu > li > a:hover,.page-template-page-single .menu-area .navbar ul li.active a, .sec-title-single h3, #contact-address #contact-form-title h3,
+	#ratings h3, #ratings #total-rat strong,#blog-home .blog-meta .blog-title a:hover, .video-page-price .featured .cl-header h4,
+	.bs-sidebar .recent-post-widget .post-desc a:hover,
+	article.sticky .blog-title a, 
+	.bs-sidebar ul a:hover,
+	article.sticky .blog-title a:after,
+	.rs-video .videos-icon span:hover i,
+	.team-slider-style2 .team-item-wrap .team-content .display-table .display-table-cell .team-name a:hover,
+	.clpricing-table .price-table.style2 .price-style2 .top .cl-header .dolar,	
+	#rs-header.header-style6 .toolbar-area .toolbar-sl-share li a:hover,
+	.rs-services1 .services-icon i,	
+	#business-services .rs-services1 .services-item:hover,
+	.team-slider-style2 .team-item-wrap .team-img .normal-text .team-name a:hover,
+	header.header-style-4 .header-inner .logo-section .toolbar-contact-style4 ul li .contact-inf a:hover,
+	header.header-style-4 .header-inner .logo-section .toolbar-contact-style4 ul li i,
+	#video-section .counter-top-area .rs-counter-list i,
+	.portfolio-filter button:hover, .portfolio-filter button.active, .primary-color,
+	.features-section#features .rs-services1 .services-item .services-icon i,
+	#our-practice-area .rs-services1 .services-item .services-icon i,
+	#our-practice-area .rs-services1 .services-item:hover a,
+	#rs-services-slider .menu-carousel .heading-block h4 a:hover,
+	.team-gird .team-style2 .team-content .overly-border:after,
+	.team-gird .team-style2 .team-content .display-table .display-table-cell .team-name a:hover,
+	 .rs-breadcrumbs ul li a:hover,
+	.team-gird .team-style3 .team-wrapper .team_desc .name a,
+	.check-circle li:before, .team-gird .team-style3 .team-wrapper .team_desc .name .designation,
+	.footer-bottom #footer-menu li a:hover,
+	.footer-bottom #footer-menu li.current-menu-item.current_page_item a,
+	.btm-cate li a:hover, .team-slider-style2 .team-item-wrap .team-content .display-table .display-table-cell .team-social .social-icon:hover i,
+	.rs-blog-details .bs-meta li a:hover, .services-style-8:hover .services-wrap .services-item .services-desc .services-title2 a,
+	.rs-blog-details .type-post .tag-line a:hover, .testimonials6 .slick-center .testi-title:before,
+	#rs-accordion .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title a,
+	#rs-header .menu-area nav.navbar ul > li.mega.three-col.home-col > ul > li > a:hover,
+	.rs-porfolio-details .ps-informations ul li a:hover,
+	.header-style1 .toolbar-contact-style4 ul li .contact-inf a:hover,
+	.services-style-5 .services-wrap .services-item .services-desc .services-title2 a:hover,
+	.sidenav .fa-ul li a:hover, ul.stylelisting li::before, .check-arrow li::before,
+	.rs-blog .blog-meta .blog-title a:hover, .rs-blog.rs-blog-grid .category-name span a:hover,
+    .full-blog-content div.category-name a:hover,
+	.seo-price .clpricing-table .price-table.style1 .cl-pricetable-wrap .bottom .btn-table,
+	.rs-testimonial .testi-carousel .slick-arrow, .sponsor-filter button,
+	.rs-heading:not(.light) .sub-text, .rs-services1 .services-wrap .services-item .services-icon i,
+	.full-blog-content .blog-title a:hover,
+	.ps-navigation ul a:hover,
+	.our-venues-section .services-style-2:hover .services-wrap .services-item .services-desc .services-title2 a,
+	.single .title-area-blog .get_date_format .formated_date,
+	.blog-item .get_date_format .formated_date,
+	article.sticky .blog-title a:after,
+	article.sticky .blog-title a,
+	.woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce ul.products li.product .price
+	{
+		color:#606060 !important;
+	}
+	.mobile-menu-container .sidenav.nav-active-menu-container,
+	.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce .wc-forward, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+		background: #606060 !important;
+	}
+	#cl-testimonial i, .course-features-info h3.title,
+	.rs-services-style4:hover .services-item .services-icon i,
+	#rs-header .logo-area a{
+		color:#fdd245 !important;
+	}
+	
+	.team-gird .team-style2 .team-content .overly-border:before,
+	.team-gird .team-style2 .team-content .overly-border:after,
+	.readon.border, .mc4wp-form input[type="text"], .mc4wp-form input[type="url"], .mc4wp-form input[type="tel"], .mc4wp-form input[type="number"], .mc4wp-form input[type="email"], .rs-footer .footer-bottom .footer-bottom-share ul li a,
+	blockquote,
+	.rs-porfolio-details.project-gallery .file-list-image .p-zoom,
+	.rs-blog-details blockquote,
+	#cl-testimonial ul.slick-dots li button,
+	#ratings #cl-testimonial ul.slick-dots li button,
+	.menu-sticky.sticky .quote-button:hover,
+	body #cl-testimonial ul.slick-dots li button, body #cl-testimonial ul.slick-dots li button,
+	header.header-style-4 .header-inner .logo-section .toolbar-contact-style4 ul li .quote-button,
+	#full-sections .wpb_text_column p a, .bs-sidebar .tagcloud a:hover,
+	#rs-services .rs-services1 .services-icon,
+	.apps-contact .share-icons .vc_icon_element:hover, .testimonials6 .slick-center .testi-img .image img,
+	#rs-accordion .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title a .vc_tta-controls-icon:before,
+	.rs-services-style4 .services-item .services-icon i, .sponsor-filter button,
+	.testimonial-slide7.slider7 .right-content p, .single-speakers .team-skill .rs-progress
+	{
+		border-color:#fdd245 !important;
+	}
+
+	.tabs-about .vc_tta-container .vc_tta-tabs-container ul li.vc_active a::after{
+		border-top: 15px solid #fdd245 !important;
+	}
+	
+	.rs-team .team-gird .team-style4 .inner .box-section::before{
+		border-right-color:#fdd245 !important;
+	}
+
+	.single-teams .ps-informations ul li.social-icon:hover i,
+	.rs-team.rs-team-style3 .team-img .normal-text .share-icons ul li a, 
+	.sponsor-filter button.active, .sponsor-filter button:hover,
+	.rs-gallery .gallery-item:after{
+		background:#fdd245 !important;
+	}
+
+
+	#rs-header.header-transparent .header-inner .menu-area .navbar-menu ul > li > a,
+	#rs-header .menu-responsive .sidebarmenu-search .sticky_search i,
+	.header-transparent .header-inner .menu-area .nav .navbar-menu #primary-menu-single > li > a
+	{
+		color:#ffffff;
+	}
+	
+	#rs-header.header-transparent .sidebarmenu-area .nav-link-container .nav-menu-link span{
+		background:#ffffff;
+	}
+
+	#rs-header.header-transparent .header-inner .menu-area .navbar-menu ul > li.current_page_parent > a,
+	#rs-header.header-transparent .header-inner .menu-area .navbar-menu ul > li.current-menu-ancestor > a,
+	#rs-header.style2.header-transparent .header-inner .menu-area .nav .navbar-menu #primary-menu-single > li.current_page_parent > a,
+	#rs-header.style2.header-transparent .header-inner .menu-area .nav .navbar-menu #primary-menu-single > li.current-menu-ancestor > a,  
+	#rs-header.style5.header-transparent .header-inner .menu-area .nav .navbar-menu #primary-menu-single > li.current_page_parent > a,
+	#rs-header.style5.header-transparent .header-inner .menu-area .nav .navbar-menu #primary-menu-single > li.current-menu-ancestor > a,
+	#rs-header.header-transparent .header-inner .menu-area .nav .navbar-menu #primary-menu-single > li > a:hover,
+	#rs-header.header-transparent .header-inner .menu-area .navbar-menu ul > li > a:hover{
+		color:#fdd245;
+	}
+
+
+ 			#rs-header .menu-area nav.navbar ul li ul li a{
+			border-color: #fcc308 !important;
+		}
+	
+
+
+ 			#rs-header .menu-area .navbar ul li .sub-menu li a,
+		#rs-header.header-transparent .header-inner .menu-area .navbar-menu ul li .sub-menu li a{
+			color: #212121;
+		}
+	
+
+
+ 			#rs-header.header-style6 .menu-responsive .sidebarmenu-area .nav-link-container a span,
+		#rs-header .menu-responsive .nav-link-container .nav-menu-link span{
+			background: #212121;
+		}
+	
+
+ 			#rs-header .menu-area .navbar ul li .sub-menu li a:hover,
+		#rs-header .menu-area .navbar ul li .sub-menu li.current_page_item a,
+		#rs-header.header-transparent .header-inner .menu-area .navbar-menu ul li .sub-menu li.current_page_item a,
+		#rs-header.header-transparent .header-inner .menu-area .navbar-menu ul li .sub-menu li a:hover{
+			color: #000000;
+		}
+	
+
+
+	
+
+
+
+ 	
+
+ 	
+
+ 	
+ 	
+
+ 			#rs-header .menu-area .navbar ul li .sub-menu li a{
+			color: #212121;
+		}
+	
+	#download-store2 #app-store a:hover, 
+	#download-store2 #app-store a:hover,
+	.rs-footer .footer-top .container
+	{
+		border-color: #fdd245	}
+	
+	a{
+		color:#612ea7	}
+	a:hover{
+		color:#212121	}
+
+	
+	#rs-header .menu-area.sticky .navbar ul li.active > a{
+	    color: #fdd245 !important;  
+	}
+
+	.transparent_header .sticky .navbar ul > li > a:after{
+	 	background: #fdd245 !important; 
+	}
+	#rs-header .menu-area .navbar ul li > a,
+	#rs-header.header-style6 .menu-responsive .sidebarmenu-search .sticky_search i,
+	#rs-header.header-style6 .menu-area .navbar ul li > a,
+	#rs-header.header-style-4 .menu-area .navbar ul li > a{
+		color:#212121	}
+
+	
+	.rs-services1:hover .services-icon i, .team-gird .team-style3 .team-wrapper:hover .team_desc .name .designation,
+	.team-gird .team-style3 .team-wrapper:hover .name a{
+		color: #fff !important;
+	}
+
+	.rs-heading h3{
+		color: #fdd245	}
+
+
+				#rs-header .menu-sticky.sticky .menu-area{
+				background: #000929;	
+			}
+		
+				#rs-header .header-inner.sticky .menu-area .nav .navbar-menu #primary-menu-single > li > a,
+			#rs-header.header-style6 .header-inner.sticky .menu-responsive .sidebarmenu-search .sticky_search i,
+			#rs-header.style2.header-transparent .header-inner.sticky .menu-responsive .sidebarmenu-search .sticky_search i,
+			#rs-header.header-transparent .header-inner.sticky .menu-area .nav .navbar-menu #primary-menu-single > li > a{
+				color: #ffffff;	
+			}
+		
+				#rs-header.header-transparent .header-inner.sticky .sidebarmenu-area .nav-link-container .nav-menu-link span,
+			#rs-header.header-style6 .header-inner.sticky .menu-responsive .sidebarmenu-area .nav-link-container a span, 
+			#rs-header .header-inner.sticky .menu-responsive .nav-link-container .nav-menu-link span{
+				background: #ffffff;	
+			}
+		
+				#rs-header .header-inner.sticky .menu-area .nav .navbar-menu #primary-menu-single > li > a:hover,
+			#rs-header.header-style6 .header-inner.sticky .menu-responsive .sidebarmenu-search .sticky_search i:hover,
+			#rs-header.style2.header-transparent .header-inner.sticky .menu-responsive .sidebarmenu-search .sticky_search i:hover,
+			#rs-header.header-transparent .header-inner.sticky .menu-area .nav .navbar-menu #primary-menu-single > li > a:hover{
+				color: #fdd245;	
+			}
+		
+
+			#rs-header.style2.header-transparent .header-inner.sticky .menu-area .nav .navbar-menu #primary-menu-single > li.current_page_parent > a{
+			color: #fdd245;	
+		}
+	
+
+		
+				#rs-header .header-inner.menu-sticky.sticky .menu-area .navbar-menu ul > li > a:hover{
+				color: #fdd245;	
+			}
+			
+		
+		
+
+	.rs-footer{
+						background-color: #000000 !important;
+					}</style>
+<noscript><style type="text/css">.wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+</head>
+
+<body class="speakers-template-default single single-speakers postid-3861 wpb-js-composer js-comp-ver-5.7 vc_responsive">
+ <!--Preloader start here-->
+   
+     <!--Preloader area end here-->
+   <div id="page" class="site ">
+  
+<header id="rs-header" class="header-transparent style2">
+    <div class="header-inner menu-sticky">
+        <!-- Toolbar Start -->
+                <!-- Toolbar End -->
+        
+        <!-- Header Menu Start -->
+        <div class="menu-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 header-logo">
+                    
+  <div class="logo-area">
+          <a href="/2019/." rel=home"><img style="max-height: 50px" src="/2019/wp-content/uploads/2019/05/isologo-blanco.svg" alt="SalmorejoTech"></a>
+        </div>
+    <div class="logo-area sticky-logo">
+      <a href="/2019/." rel=home"><img src="/2019/wp-content/uploads/2019/05/isologo-blanco.svg" alt="SalmorejoTech"></a>
+    </div>
+                </div>
+                  <div class="col-sm-9 menu-responsive">
+                                   
+                    <nav class="nav navbar">
+        <div class="navbar-menu">
+            <div class="menu-primary-menu-container"><ul id="primary-menu-single" class="menu">
+<li id="menu-item-3957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3957"><a href="/2019/.">Inicio</a></li>
+<li id=menu-item-4314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4314"><a href="https://salmorejo.tech/2019/#rs-about">Información</a></li>
+<li id="menu-item-4315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4315"><a href="https://salmorejo.tech/2019/#rs-speakers">Ponentes</a></li>
+<li id="menu-item-4316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4316"><a href="https://salmorejo.tech/2019/#rs-sponsors">Patrocinadores</a></li>
+<li id="menu-item-4317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4317"><a href="https://salmorejo.tech/2019/#rs-schedule">Programa</a></li>
+<li id="menu-item-4318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4318"><a href="https://salmorejo.tech/2019/#rs-join">Entradas</a></li>
+<li id="menu-item-4319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4319"><a href="https://salmorejo.tech/2019/#rs-sede">Sede</a></li>
+</ul></div>        </div>
+        <div class="nav-link-container mobile-menu-link"> 
+            <a href="#" class="nav-menu-link">              
+                <span class="hamburger1"></span>
+                <span class="hamburger2"></span>
+                <span class="hamburger3"></span>
+            </a> 
+        </div>
+    </nav>
+    
+<nav class="nav-container mobile-menu-container">
+    <ul class="sidenav">
+        <li class="nav-link-container"> 
+            <a href="#" class="nav-menu-link">              
+                <span class="hamburger1"></span>
+                <span class="hamburger3"></span>
+            </a> 
+        </li>
+        <li>
+          <div class="menu-primary-menu-container"><ul id="primary-menu-single2" class="menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3957"><a href="/2019/.">Inicio</a></li>
+<li class=menu-item menu-item-type-custom menu-item-object-custom menu-item-4314"><a href="https://salmorejo.tech/2019/#rs-about">Información</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4315"><a href="https://salmorejo.tech/2019/#rs-speakers">Ponentes</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4316"><a href="https://salmorejo.tech/2019/#rs-sponsors">Patrocinadores</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4317"><a href="https://salmorejo.tech/2019/#rs-schedule">Programa</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4318"><a href="https://salmorejo.tech/2019/#rs-join">Entradas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4319"><a href="https://salmorejo.tech/2019/#rs-sede">Sede</a></li>
+</ul></div>        </li>
+        <li>
+            <div class="sidenav-contact">
+                <ul class="rs-contact-info">
+                     
+
+                    
+                                    </ul>
+                <ul class="sidenav-share">
+                                      </ul>
+            </div>
+        </li>
+    </ul>
+</nav>                
+            </div>
+            </div>
+        </div> 
+        </div>
+        <!-- Header Menu End -->
+    </div>
+    <!-- End Slider area  -->
+</header>
+<div class="transparent_head">
+      </div> 
+  <!-- End Header Menu End -->
+  <div class="main-contain">
+
+<!-- Main content Start -->
+<div class="main-content"> 
+  <!-- Breadcrumbs Start -->
+    <div class="rs-breadcrumbs">
+  <div class="breadcrumbs-single" style="background-image: url('/2019/wp-content/uploads/2018/10/inner_banner2.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="breadcrumbs-inner">
+                                          <h1 class="page-title">
+                Francisco Zurita              </h1>
+              <!-- Breadcrumb NavXT 6.6.0 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Ir a SalmorejoTech." class="home"><span property="name">SalmorejoTech</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Ir a Speakers." href="/2019/speakers" class="post post-speakers-archive"><span property="name">Speakers</span></a><meta property="position" content="2"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the salmtech2019 Speaker Categories archives." href="/2019/speaker-category/salmtech" class="taxonomy speaker-category"><span property="name">salmtech2019</span></a><meta property="position" content="3"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name" class="post post-speakers current-item">Francisco Zurita</span><meta property="url" content="https://salmorejo.tech/2019/speakers/francisco-zurita/">
+<meta property="position" content="4"></span>        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- Breadcrumbs End --> 
+  
+  <!-- Team Detail Start -->
+  
+  <div class="rs-porfolio-details">
+    <div class="container">
+      <div id="content">
+            <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="ps-image">
+            <img width="600" height="600" src="/2019/wp-content/uploads/2019/05/franciscozurita-e1557730430546.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/2019/wp-content/uploads/2019/05/franciscozurita-e1557730430546.jpeg 600w, /2019/wp-content/uploads/2019/05/franciscozurita-e1557730430546-150x150.jpeg 150w, /2019/wp-content/uploads/2019/05/franciscozurita-e1557730430546-300x300.jpeg 300w, /2019/wp-content/uploads/2019/05/franciscozurita-e1557730430546-100x100.jpeg 100w" sizes="(max-width: 600px) 100vw, 600px">            <div class="team-pinfo">
+                <h4>Francisco Zurita</h4>              
+                Software Engineer en Glovo             
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <div class="ps-informations">               
+                
+               
+                <!-- Team social link -->
+                                    <ul class="ps-social">
+                                                        <li class="social-icon"><a href="https://twitter.com/frnzurita" class="social-icon"><i class="fa fa fa-twitter"></i></a></li>
+                                                        <li class="social-icon"><a href="https://www.linkedin.com/in/francisco-zurita/" class="social-icon"><i class="fa fa fa-linkedin"></i></a></li>
+                                                        <li class="social-icon"><a href="https://github.com/Frzurita/" class="social-icon"><i class="fa fa-github"></i></a></li>
+                                            </ul>
+                            
+               
+            </div>
+            <div class="project-desc">        
+              <h2>TDD in the javascript stack. A survival guide</h2>
+<p>Hablaremos sobre cómo implementar testing usando jest + cypress tanto en frontend como en backend, siguiendo buenas prácticas y analizando diferentes casos de uso. Mejorándolos para llegar a un testing ligero y consistente</p>
+				    </div>
+        </div>
+      </div>
+      
+          </div>
+  </div>
+</div>
+</div>
+<!-- Portfolio Detail End -->
+     
+</div>
+<!-- .main-container -->
+    <footer id="rs-footer" class="footerlight rs-footer footer-style-1" style="background-image: url('https://salmorejo.tech/2019/wp-content/uploads/2019/05/mezquita-low-1.jpg')">
+    
+    <div class="footer-top">
+      <div class="container">
+       
+        <div class="row">                   
+          <div class="col-lg-4">                                          
+              <div class="about-widget widget">
+                                                            <div class="footer-logo">
+                          <a href="/2019/.">
+                              
+                           <img class=footer-logo" src="/2019/wp-content/uploads/2019/05/isologo-blanco.svg" alt="SalmorejoTech">
+                             
+
+                          </a>
+                        </div>
+                    
+                    
+
+	                <section id="contact_widget-1" class="widget widget_contact_widget"><h3 class="footer-title">Aula de Software Libre</h3>  
+  <!-- Contact Info Widget -->
+  <ul class="fa-ul">
+
+		<li>
+<i class="fa fa-globe"></i>Ed. Ramón y Cajal. Campus de Rabanales</li>
+<li> <i class="fa fa-envelope"></i><a href="mailto:aulasoftwarelibre@uco.es">aulasoftwarelibre@uco.es</a>
+</li>
+  </ul>
+
+    </section>    	                
+              </div>                       
+          </div>              
+          <div class="col-lg-4">
+            <div class="contact-widget widget">
+                <section id="text-2" class="widget widget_text"><h3 class="footer-title">Suscríbete</h3>			<div class="textwidget">
+<p>Únete a nuestra lista de correo si quieres estar al día.</p>
+<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script>
+</div>
+		</section>            </div>                        
+          </div>
+          <div class="col-lg-4">
+            <div class="mailchip-widget widget">
+                  <section id="media_image-3" class="widget widget_media_image"><img width="300" height="103" src="/2019/wp-content/uploads/2019/06/logos-pie-300x103.png" class="image wp-image-4119 mx-auto d-block pt-5 attachment-medium size-medium" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="/2019/wp-content/uploads/2019/06/logos-pie-300x103.png 300w, /2019/wp-content/uploads/2019/06/logos-pie-768x265.png 768w, /2019/wp-content/uploads/2019/06/logos-pie.png 1004w" sizes="(max-width: 300px) 100vw, 300px"></section>            </div>
+          </div>         
+      </div>
+    </div>
+  </div>
+  
+
+
+    
+  <div class="footer-bottom">
+        <div class="container">
+
+                        
+                  <ul class="footer_social">  
+                                                 <li> 
+                              <a href="https://facebook.com/AulaSoftwareLibre" target="_blank"><span><i class="fa fa-facebook"></i></span></a> 
+                         </li>
+                                                                        <li> 
+                              <a href="https://twitter.com/AulaSL" target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
+                        </li>
+                                                                                                                                                                        <li> 
+                              <a href="https://www.instagram.com/aulasoftwarelibre/" target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
+                        </li>
+                                                                                                     
+                  </ul>
+       
+            <div class="row">         
+                
+             
+              <div class="col-md-12 col-sm-12">
+
+
+                <div class="copyright">
+                    <div class="col-sm-12 footer-menu-right">
+<div class="menu-footer-menu-container"><ul id="footer-menu" class="menu">
+<li id="menu-item-3953" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3953"><a href="/2019/.">Inicio</a></li>
+<li id=menu-item-4007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4007"><a href="/2019/boletin">Boletín</a></li>
+<li id="menu-item-2215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2215"><a href="/2019/contacto">Contacto</a></li>
+<li id="menu-item-3954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-3954"><a href="/2019/politica-privacidad">Política de privacidad</a></li>
+<li id="menu-item-4311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4311"><a href="/2019/codigo-de-conducta">Código de Conducta</a></li>
+</ul></div> </div>
+                                        <p>Copyleft 2019. Una web del <a href="https://uco.es/aulasoftwarelibre">Aula de Software Libre</a> de la Universidad de Córdoba</p>
+                                    </div>
+                  
+            </div>
+             
+            </div>
+        </div>
+  </div>
+</footer>
+</div>
+<!-- #page -->
+   
+
+<script>(function() {function maybePrefixUrlField() {
+	if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if (urlFields) {
+	for (var j=0; j < urlFields.length; j++) {
+		urlFields[j].addEventListener('blur', maybePrefixUrlField);
+	}
+}
+})();</script><script type="text/javascript" src="/2019/wp-content/plugins/cl_pricetable/js/main.js?ver=1.1" id="custom_script-js"></script>
+<script type="text/javascript" src="/2019/wp-content/plugins/cl_testimonial/js/slick.min.js?ver=1.3" id="cl-carousel-clt-js"></script>
+<script type="text/javascript" src="/2019/wp-content/plugins/cl_testimonial/js/main.js?ver=1.1" id="custom_script_clt-js"></script>
+<script type="text/javascript" src="/2019/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="https://salmorejo.tech/2019/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"><\/scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://salmorejo.tech/2019/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://salmorejo.tech/2019/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://salmorejo.tech/2019/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"><\/scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://salmorejo.tech/2019/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"><\/scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://salmorejo.tech/2019/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"><\/scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://salmorejo.tech/2019/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"><\/scr' + 'ipt>' );
+</script>
+<script type="text/javascript" src="/2019/wp-includes/js/dist/hooks.min.js?ver=50e23bed88bcb9e6e14023e9961698c1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="/2019/wp-includes/js/dist/i18n.min.js?ver=db9a9a37da262883343e941c3731bc67" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" src="/2019/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19" id="lodash-js"></script>
+<script type="text/javascript" id="lodash-js-after">
+window.lodash = _.noConflict();
+</script>
+<script type="text/javascript" src="/2019/wp-includes/js/dist/url.min.js?ver=0ac7e0472c46121366e7ce07244be1ac" id="wp-url-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2021-04-15 02:04:33+0000","generator":"GlotPress\/3.0.0-alpha.2","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"You are probably offline.":["Probablemente estás desconectado."],"Media upload failed. If this is a photo or a large image, please scale it down and try again.":["La subida de medios ha fallado. Si esto es una foto o una imagen grande, por favor, reduce su tamaño e inténtalo de nuevo."],"The response is not a valid JSON response.":["Las respuesta no es una respuesta JSON válida."],"An unknown error occurred.":["Ha ocurrido un error desconocido."]}},"comment":{"reference":"wp-includes\/js\/dist\/api-fetch.js"}} );
+</script>
+<script type="text/javascript" src="/2019/wp-includes/js/dist/api-fetch.min.js?ver=a783d1f442d2abefc7d6dbd156a44561" id="wp-api-fetch-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-after">
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://salmorejo.tech/2019/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "14c7455189" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://salmorejo.tech/2019/wp-admin/admin-ajax.php?action=rest-nonce";
+</script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/2019/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4" id="contact-form-7-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/modernizr-2.8.3.min.js?ver=20151215" id="modernizr-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/popper.min.js?ver=20151215" id="popper-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/bootstrap.min.js?ver=20151215" id="bootstrap-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/owl.carousel.min.js?ver=20151215" id="owl-carousel-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/slick.min.js?ver=20151215" id="slick-js"></script>
+<script type="text/javascript" src="/2019/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7" id="waypoints-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/flickr/jflickrfeed.min.js?ver=20151215" id="jflickrfeed-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/jquery.counterup.min.js?ver=20151215" id="jquery-counterup-js"></script>
+<script type="text/javascript" src="/2019/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.7" id="isotope-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/type.writter.js?ver=20151215" id="type-writter-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/time-circle.js?ver=20151215" id="time-circle-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/jquery.magnific-popup.min.js?ver=20151215" id="jquery-magnific-popup-js"></script>
+<script type="text/javascript" src="/2019/wp-content/themes/eventeo/assets/js/main.js?ver=201513434" id="eventeo-main-js"></script>
+
+
+
+<script type="text/javascript" src="/2019/wp-includes/js/wp-embed.min.js?ver=5.7.1" id="wp-embed-js"></script>
+<script type="text/javascript" src="/2019/wp-content/plugins/mailchimp-for-wp/assets/js/forms.min.js?ver=4.8.3" id="mc4wp-forms-api-js"></script>
+  </body>
+
+<!-- Dynamic page generated in 0.218 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2021-04-24 11:36:52 -->
+
+<!-- Compression = gzip -->
+</html>

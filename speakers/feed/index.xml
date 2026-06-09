@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Speakers &#8211; SalmorejoTech</title>
+	<atom:link href="/speakers/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Tu evento tecnológico con sabor cordobés</description>
+	<lastBuildDate>Sun, 15 Sep 2019 11:15:36 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2019/05/cropped-isotipo-rrss-cuadrado-32x32.png</url>
+	<title>Speakers &#8211; SalmorejoTech</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Adrián López</title>
+		<link>/speakers/adrian-lopez/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=adrian-lopez</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Fri, 30 Aug 2019 12:17:33 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4358</guid>
+
+					<description><![CDATA[<p>La entrada <a rel="nofollow" href="/speakers/adrian-lopez/">Adrián López</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>La entrada <a rel="nofollow" href="/speakers/adrian-lopez/">Adrián López</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>José Fernández</title>
+		<link>/speakers/jose-fernandez/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jose-fernandez</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Fri, 30 Aug 2019 11:57:26 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4355</guid>
+
+					<description><![CDATA[<p>La entrada <a rel="nofollow" href="/speakers/jose-fernandez/">José Fernández</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>La entrada <a rel="nofollow" href="/speakers/jose-fernandez/">José Fernández</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Alejandro Ariza</title>
+		<link>/speakers/alejandro-ariza/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=alejandro-ariza</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Thu, 27 Jun 2019 10:50:02 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4176</guid>
+
+					<description><![CDATA[<p>La entrada <a rel="nofollow" href="/speakers/alejandro-ariza/">Alejandro Ariza</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>La entrada <a rel="nofollow" href="/speakers/alejandro-ariza/">Alejandro Ariza</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Victor Monserrat</title>
+		<link>/speakers/victor-monserrat/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=victor-monserrat</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 11:36:03 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4109</guid>
+
+					<description><![CDATA[<p>Free Tour DDD Cuando desarrollamos una aplicación solemos dar más importancia al cómo guardamos la información, a la base de datos, que...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/victor-monserrat/">Victor Monserrat</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Free Tour DDD</h2>
+<p>Cuando desarrollamos una aplicación solemos dar más importancia al cómo guardamos la información, a la base de datos, que a la propia lógica de negocio. Así, nuestras entidades quedan llenas de getters y setters que provocan el antipatrón Anemic Domain Model.</p>
+<p>Domain-Driven Design (DDD) apuesta por el dominio y la lógica de negocio como parte fundamental del sistema, donde la base de datos es solo un detalle más. De esta manera, evitamos los problemas que causa el modelo anémico, haciendo más fácil el mantenimiento y la escalabilidad de nuestra aplicación.</p>
+<p>En esta charla haremos una introducción a DDD y lo pondremos en práctica en un ejemplo que todos conocemos.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/victor-monserrat/">Victor Monserrat</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Estefanía Fernández</title>
+		<link>/speakers/estefania-fernandez/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=estefania-fernandez</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 11:15:06 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4103</guid>
+
+					<description><![CDATA[<p>Cómo empezar a hacer tus pruebas en iOS con Appium Cuando comienzas con la automatización de pruebas móviles, la primera herramienta que...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/estefania-fernandez/">Estefanía Fernández</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Cómo empezar a hacer tus pruebas en iOS con Appium</h2>
+<p>Cuando comienzas con la automatización de pruebas móviles, la primera herramienta que se te viene a la cabeza es Appium, y todo es maravilloso, sobre todo en Android ya que el 90% de los tutoriales que encuentras por internet son de Appium+Android+un Emulador, pero&#8230;¿Qué pasa con iOS?, ¿Es que las cosas de la manzanita no se prueban?, ¿Por qué?. Mi experiencia como Head de QA en una empresa de movilidad con desarrollo nativo iOS/Android me ha hecho aprender bastante sobre el tema de las pruebas automáticas en iOS y creo que es un tema interesante del que no hay demasiada información. El workshop será de 1h y tendrá un ejemplo práctico de hacer un test con Appium con una aplicación realizada por mí y que está disponible en Github (https://github.com/estefafdez/iOSTestApp) para que cualquiera pueda probarlo.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/estefania-fernandez/">Estefanía Fernández</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>José Luis Prieto Priego</title>
+		<link>/speakers/jose-luis-prieto-priego/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jose-luis-prieto-priego</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 10:53:16 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4100</guid>
+
+					<description><![CDATA[<p>Usa Serverless y sólo preocúpate de tu código Serverless es una arquitectura nativa de cloud que te permite delegar la responsabilidad operacional...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/jose-luis-prieto-priego/">José Luis Prieto Priego</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Usa Serverless y sólo preocúpate de tu código</h2>
+<p>Serverless es una arquitectura nativa de cloud que te permite delegar la responsabilidad operacional en tu proveedor cloud. Nunca más tendrás que pensar en servidores y podrás olvídate de las tareas de administración de infraestructura, lo que te podrá ayudar a reducir costes operativos, complejidad y aumentar tu agilidad e innovación.</p>
+<p>Construir aplicaciones Serverless significará que tus desarrolladores podrán enfocarse en el Core del negocio en vez de tener que preocuparte de administrar y operar servidores.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/jose-luis-prieto-priego/">José Luis Prieto Priego</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Francis Molina</title>
+		<link>/speakers/francis-molina/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=francis-molina</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 09:36:28 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4090</guid>
+
+					<description><![CDATA[<p>RRSS y Mercadotecnia</p>
+<p>La entrada <a rel="nofollow" href="/speakers/francis-molina/">Francis Molina</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>RRSS y Mercadotecnia</p>
+<p>La entrada <a rel="nofollow" href="/speakers/francis-molina/">Francis Molina</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tomás Marín</title>
+		<link>/speakers/tomas-marin/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tomas-marin</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 09:32:46 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4084</guid>
+
+					<description><![CDATA[<p>Apoyo a Secretaría Técnica</p>
+<p>La entrada <a rel="nofollow" href="/speakers/tomas-marin/">Tomás Marín</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Apoyo a Secretaría Técnica</p>
+<p>La entrada <a rel="nofollow" href="/speakers/tomas-marin/">Tomás Marín</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Pablo Rodríguez</title>
+		<link>/speakers/pablo-rodriguez/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=pablo-rodriguez</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 09:30:41 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4082</guid>
+
+					<description><![CDATA[<p>Secretaría Técnica</p>
+<p>La entrada <a rel="nofollow" href="/speakers/pablo-rodriguez/">Pablo Rodríguez</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Secretaría Técnica</p>
+<p>La entrada <a rel="nofollow" href="/speakers/pablo-rodriguez/">Pablo Rodríguez</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ángel Heredia</title>
+		<link>/speakers/angel-heredia/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=angel-heredia</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 09:28:51 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4080</guid>
+
+					<description><![CDATA[<p>Apoyo a Tesorería</p>
+<p>La entrada <a rel="nofollow" href="/speakers/angel-heredia/">Ángel Heredia</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Apoyo a Tesorería</p>
+<p>La entrada <a rel="nofollow" href="/speakers/angel-heredia/">Ángel Heredia</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

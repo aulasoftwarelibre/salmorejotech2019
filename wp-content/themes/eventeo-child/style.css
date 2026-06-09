@@ -1,0 +1,59 @@
+/*
+ Theme Name:   Eventeo Child
+ Theme URI:    http://rstheme.com/products/wordpress/eventeo/
+ Description:  Eventeo Child
+ Author:       RS Theme
+ Author URI:   http://rstheme.com
+ Template:     eventeo
+ Version:      2.4
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+ */
+
+.logo-area > a > img {
+text-indent:-9999px
+}
+
+.mobile-menu-link,
+.sidenav {
+  display: none!important;
+}
+
+.mc4wp-form input[type=submit] {
+  top: 160px;
+}
+
+.rs-team.rs-team-style3 .team-img .normal-text .team-name a:hover {
+  color: #818181;
+}
+
+#rs-speakers .sub-text {
+  color: #ffffff!important;
+}
+
+.rs-events-schedule .events-schedule-contents .events-subinner .events-shedule-subdes .events-items {
+    min-height: 200px!important;
+}
+
+.event-circle.rs-events-schedule1 .events-shedule-subitmes .event-shedule-info h3 {
+    font-size: 21px!important;
+}
+
+@media only screen and (max-width: 767px) {
+  .contactpage-form {
+    background: #f0f0f0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mc4wp-form input[type=submit] {
+    position: absolute;
+  }
+}
+
+.nav.eventday-list {
+    display: none !important;
+}
+
+

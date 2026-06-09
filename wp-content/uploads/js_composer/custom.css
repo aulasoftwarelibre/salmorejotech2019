@@ -1,0 +1,13 @@
+.rs-events-schedule .events-schedule-contents .events-subinner .events-shedule-subdes:nth-child(odd) > .events-items{
+background: rgb(51,102,153) !important;
+background: linear-gradient(270deg, rgba(51,102,153,1) 0%, rgba(21,56,91,1) 50%) !important;
+}
+
+.rs-events-schedule .events-schedule-contents .events-subinner .events-shedule-subdes:nth-child(even) > .events-items{
+background: rgb(69,11,33) !important;
+background: linear-gradient(270deg, rgba(69,11,33,1) 0%, rgba(96,16,47,1) 17%) !important;
+}
+
+.rs-events-schedule.rs-events-schedule1 .events-schedule-contents .events-items .col-lg-8{
+    background-color: rgba(0,0,0,0) !important; 
+}

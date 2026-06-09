@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>salmtech2019 &#8211; SalmorejoTech</title>
+	<atom:link href="/speaker-category/salmtech/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Tu evento tecnológico con sabor cordobés</description>
+	<lastBuildDate>Sun, 15 Sep 2019 11:15:36 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2019/05/cropped-isotipo-rrss-cuadrado-32x32.png</url>
+	<title>salmtech2019 &#8211; SalmorejoTech</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Victor Monserrat</title>
+		<link>/speakers/victor-monserrat/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=victor-monserrat</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 11:36:03 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4109</guid>
+
+					<description><![CDATA[<p>Free Tour DDD Cuando desarrollamos una aplicación solemos dar más importancia al cómo guardamos la información, a la base de datos, que...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/victor-monserrat/">Victor Monserrat</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Free Tour DDD</h2>
+<p>Cuando desarrollamos una aplicación solemos dar más importancia al cómo guardamos la información, a la base de datos, que a la propia lógica de negocio. Así, nuestras entidades quedan llenas de getters y setters que provocan el antipatrón Anemic Domain Model.</p>
+<p>Domain-Driven Design (DDD) apuesta por el dominio y la lógica de negocio como parte fundamental del sistema, donde la base de datos es solo un detalle más. De esta manera, evitamos los problemas que causa el modelo anémico, haciendo más fácil el mantenimiento y la escalabilidad de nuestra aplicación.</p>
+<p>En esta charla haremos una introducción a DDD y lo pondremos en práctica en un ejemplo que todos conocemos.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/victor-monserrat/">Victor Monserrat</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Estefanía Fernández</title>
+		<link>/speakers/estefania-fernandez/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=estefania-fernandez</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 11:15:06 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4103</guid>
+
+					<description><![CDATA[<p>Cómo empezar a hacer tus pruebas en iOS con Appium Cuando comienzas con la automatización de pruebas móviles, la primera herramienta que...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/estefania-fernandez/">Estefanía Fernández</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Cómo empezar a hacer tus pruebas en iOS con Appium</h2>
+<p>Cuando comienzas con la automatización de pruebas móviles, la primera herramienta que se te viene a la cabeza es Appium, y todo es maravilloso, sobre todo en Android ya que el 90% de los tutoriales que encuentras por internet son de Appium+Android+un Emulador, pero&#8230;¿Qué pasa con iOS?, ¿Es que las cosas de la manzanita no se prueban?, ¿Por qué?. Mi experiencia como Head de QA en una empresa de movilidad con desarrollo nativo iOS/Android me ha hecho aprender bastante sobre el tema de las pruebas automáticas en iOS y creo que es un tema interesante del que no hay demasiada información. El workshop será de 1h y tendrá un ejemplo práctico de hacer un test con Appium con una aplicación realizada por mí y que está disponible en Github (https://github.com/estefafdez/iOSTestApp) para que cualquiera pueda probarlo.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/estefania-fernandez/">Estefanía Fernández</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>José Luis Prieto Priego</title>
+		<link>/speakers/jose-luis-prieto-priego/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jose-luis-prieto-priego</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2019 10:53:16 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4100</guid>
+
+					<description><![CDATA[<p>Usa Serverless y sólo preocúpate de tu código Serverless es una arquitectura nativa de cloud que te permite delegar la responsabilidad operacional...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/jose-luis-prieto-priego/">José Luis Prieto Priego</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Usa Serverless y sólo preocúpate de tu código</h2>
+<p>Serverless es una arquitectura nativa de cloud que te permite delegar la responsabilidad operacional en tu proveedor cloud. Nunca más tendrás que pensar en servidores y podrás olvídate de las tareas de administración de infraestructura, lo que te podrá ayudar a reducir costes operativos, complejidad y aumentar tu agilidad e innovación.</p>
+<p>Construir aplicaciones Serverless significará que tus desarrolladores podrán enfocarse en el Core del negocio en vez de tener que preocuparte de administrar y operar servidores.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/jose-luis-prieto-priego/">José Luis Prieto Priego</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Marcela Gotta</title>
+		<link>/speakers/marcela-gotta/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=marcela-gotta</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Thu, 30 May 2019 11:54:04 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4071</guid>
+
+					<description><![CDATA[<p>Conociendo las PWA con React Mucho se ha hablado de las Progressive Web Application y de cómo impactan en el desarrollo web...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/marcela-gotta/">Marcela Gotta</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Conociendo las PWA con React</h2>
+<p>Mucho se ha hablado de las Progressive Web Application y de cómo impactan en el desarrollo web moderno, ya que, en resumen, ofrecen las mejores cualidades de dos mundos: aplicaciones web y aplicaciones nativas. En esta charla se hablará de ellas, que son, cómo funcionan y cómo implementar todas sus ventajas a través de una de las librerías más utilizadas en todo el mundo para el desarrollo web, React.js.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/marcela-gotta/">Marcela Gotta</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Chema Roldán</title>
+		<link>/speakers/chema-roldan/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=chema-roldan</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Tue, 14 May 2019 10:41:40 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4056</guid>
+
+					<description><![CDATA[<p>Como gestionar 20 millones de peticiones al día y no morir en el intento ¿Cómo escalas un producto que registra más de...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/chema-roldan/">Chema Roldán</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Como gestionar 20 millones de peticiones al día y no morir en el intento</h2>
+<p>¿Cómo escalas un producto que registra más de 5000 usuarios nuevos todos los días y más de 20 M de peticiones nuevas? ¿Y si te digo que nuestros usuarios vienen de más de 100 países? ¿Y si te cuento encima que no tenemos a ningún DevOps en el equipo? Mi nombre es Chema Roldán y soy CTO y co-fundador de Genially. Me gustaría compartir con vosotros cómo hemos conseguido escalar nuestra infraestructura de manera eficiente y de forma real. Hablaremos de cómo utilizamos los servicios de AWS como Route53, Elastic Beanstalk, Lambda, API Gateway, SQS y Elastic Container Service. ¡Nos vamos a divertir!</p>
+<p>La entrada <a rel="nofollow" href="/speakers/chema-roldan/">Chema Roldán</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Leticia Capelo</title>
+		<link>/speakers/leticia-capelo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=leticia-capelo</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Tue, 14 May 2019 10:40:44 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4116</guid>
+
+					<description><![CDATA[<p>Diseño de producto en desarrollo ágil Leticia es Product Designer en NoSoloSoftware. Durante 40 minutos nos mostrará como aplicar las metodologíaa ágiles...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/leticia-capelo/">Leticia Capelo</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Diseño de producto en desarrollo ágil</h2>
+<p>Leticia es Product Designer en NoSoloSoftware. Durante 40 minutos nos mostrará como aplicar las metodologíaa ágiles aplicada al diseño de producto para conseguir un buen software.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/leticia-capelo/">Leticia Capelo</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Román Jiménez</title>
+		<link>/speakers/roman-jimenez/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=roman-jimenez</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Mon, 13 May 2019 18:17:03 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=4052</guid>
+
+					<description><![CDATA[<p>CARTO para interinos En CARTO hacemos herramientas para resolver problemas con datos geolocalizados, tanto analíticas como de visualización. Trabajamos con PostgreSQL, Postgis,...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/roman-jimenez/">Román Jiménez</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>CARTO para interinos</h2>
+<div dir="auto"></div>
+<div dir="auto">En CARTO hacemos herramientas para resolver problemas con datos geolocalizados, tanto analíticas como de visualización. Trabajamos con PostgreSQL, Postgis, node, python, webgl, Vue, Stencil, y liberamos prácticamente todo lo que hacemos.</div>
+<div dir="auto"></div>
+<div dir="auto">
+<div dir="auto">En esta charla vamos a utilizar datos abiertos y algunas de estas herramientas (isolíneas, rutas y las librerías de mapas / widgets) para resolver un problema: todos los años miles de interinos tienen que elegir una lista de destinos ordenada por preferencia de llamada.</div>
+<div dir="auto"></div>
+</div>
+<p>La entrada <a rel="nofollow" href="/speakers/roman-jimenez/">Román Jiménez</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Iván Portillo</title>
+		<link>/speakers/ivan-portillo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ivan-portillo</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 12 May 2019 20:00:16 +0000</pubDate>
+				<guid isPermaLink="false">https://rstheme.com/products/wordpress/eventeo/?post_type=speakers&#038;p=3530</guid>
+
+					<description><![CDATA[<p>Diving into the native sea of React Native 🏊‍ Cuando se desarrolla un aplicación con React-Native no se conoce realmente que hay...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/ivan-portillo/">Iván Portillo</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div>
+<div>
+<div>
+<h2>Diving into the native sea of React Native <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f3ca.png" alt="🏊" class="wp-smiley" style="height: 1em; max-height: 1em;" />&#x200d;</h2>
+</div>
+<p>Cuando se desarrolla un aplicación con React-Native no se conoce realmente que hay por detrás para obtener una aplicación 100% nativa. Solo en determinados casos se debe hacer uso del puente que hay entre Javascript y Nativo. En esta charla se mostrará como funciona React Native, que hay detrás de ese bridge nativo y se realizará un ejemplo con Java.</p>
+</div>
+</div>
+<p>La entrada <a rel="nofollow" href="/speakers/ivan-portillo/">Iván Portillo</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Francisco Zurita</title>
+		<link>/speakers/francisco-zurita/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=francisco-zurita</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 12 May 2019 19:13:00 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=3861</guid>
+
+					<description><![CDATA[<p>TDD in the javascript stack. A survival guide Hablaremos sobre cómo implementar testing usando jest + cypress tanto en frontend como en...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/francisco-zurita/">Francisco Zurita</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>TDD in the javascript stack. A survival guide</h2>
+<p>Hablaremos sobre cómo implementar testing usando jest + cypress tanto en frontend como en backend, siguiendo buenas prácticas y analizando diferentes casos de uso. Mejorándolos para llegar a un testing ligero y consistente</p>
+<p>La entrada <a rel="nofollow" href="/speakers/francisco-zurita/">Francisco Zurita</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Manuel Sánchez</title>
+		<link>/speakers/manuel-sanchez/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=manuel-sanchez</link>
+		
+		<dc:creator><![CDATA[sergio]]></dc:creator>
+		<pubDate>Sun, 12 May 2019 18:10:51 +0000</pubDate>
+				<guid isPermaLink="false">https://salmorejotech.com/?post_type=speakers&#038;p=3855</guid>
+
+					<description><![CDATA[<p>Azure Digital Twins un mundo paralelo ¿Quieres aprender a crear grafos de inteligencia espacial para modelar las relaciones y las interacciones entre...</p>
+<p>La entrada <a rel="nofollow" href="/speakers/manuel-sanchez/">Manuel Sánchez</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2>Azure Digital Twins un mundo paralelo</h2>
+<p>¿Quieres aprender a crear grafos de inteligencia espacial para modelar las relaciones y las interacciones entre personas, espacios y dispositivos? En esta sesión aprenderemos a crear experiencias reutilizables, muy escalables y conscientes del espacio que vincula la transmisión de los datos entre el mundo físico y el digital. Las aplicaciones están mejoradas con estas características contextuales apropiadas de forma exclusiva. Todo ello simplifica el modelado, el procesamiento de datos, el control de eventos y el seguimiento de dispositivos IoT. ¿Te lo vas a perder? Además, hablaremos de algunos casos de usos: Supervisar rutas de drones en uso, Identificar vehículos autónomos, Analizar los niveles de ocupación de un edificio, etc.</p>
+<p>La entrada <a rel="nofollow" href="/speakers/manuel-sanchez/">Manuel Sánchez</a> se publicó primero en <a rel="nofollow" href="">SalmorejoTech</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
